@@ -1,0 +1,235 @@
+/* CUSTOM FONTS */
+
+@font-face {
+  font-family: 'PixelOperatorBold';
+  font-weight: bold;
+  src: url('../assets/fonts/PixelOperator-Bold.ttf') format('truetype');
+}
+
+
+/* overall */
+
+html {
+  background: url('../assets/bg.gif');
+  background-color: tomato;
+  background-size: 50px;
+  margin: 0 5px;
+  font-family: 'PixelOperatorBold', 'Courier New';
+}
+
+section {
+  text-align: center;
+}
+
+section table {
+  margin: 0 auto;
+}
+
+
+/* fire line */
+
+.fire {
+  height: 60px;
+  background: url('../assets/firebordergif.gif');
+  background-size: 100px;
+  margin: 50px 0;
+}
+
+
+/* HEADER */
+
+.header {
+  font-size: 3em;
+}
+
+.header small {
+  background: yellow;
+}
+
+.logo {
+  display: none;
+  width: 738px;
+  margin: 0 auto;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.header p {
+  margin-top: 440px;
+}
+
+.smallpic {
+  height: 50px;
+}
+
+
+/* gallery */
+
+.gallery {
+  padding: 0 50px;
+}
+
+.gallery table {
+  width: 100%;
+  font-size: 3em;
+}
+
+.galleryphotos th {
+  background: yellow;
+}
+
+.galleryphotos td {
+  width: 1%;
+  white-space: nowrap;
+}
+
+.galleryphotos td img {
+  width: 100%;
+}
+
+.header strong {
+  background: yellow;
+}
+
+
+/* webrings */
+
+.webring {
+  display: table;
+  /*width: 100%;*/
+}
+
+.webring td {
+  padding: 5px;
+}
+
+.webringpic {
+  width: 100px;
+}
+
+.webringsearch {
+  text-align: center;
+}
+
+/* notepad webring */
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+.vintage {
+  color: skyblue;
+  font-family: "Pacifico", cursive, "Georgia", serif !important;;
+  font-size: 6em;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+}
+
+.vintage span {
+  display: block;
+  text-align: center;
+  transform: rotate(-7.5deg);
+}
+
+
+
+/* under construction */
+
+.undercon img {
+  width: 100%
+}
+
+
+/* privacy policy */
+
+.privacypolicy {
+  color: #000;
+  margin-top: 100px;
+}
+
+.privacypolicy small {
+  background: yellow;
+}
+
+
+/* KEYFRAMES */
+
+.spin {
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 4000ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 4000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-ms-keyframes spin {
+  from {
+    -ms-transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+  }
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 768px) {
+  .notepad {
+    width: 100%;
+  }
+  .logo {
+    width: 100%;
+  }
+  .header p {
+    margin-top: 100px;
+  }
+  .galleryphotos td {
+    display: block;
+    width: 100%;
+  }
+  .galleryphotos td {
+    display: block;
+    width: 100%;
+  }
+  .hidemobile {
+    display: none;
+  }
+}
